@@ -9,8 +9,9 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
     <script>
+        //生成二维码
         jQuery('#myQrcode').qrcode({
-            text:"weixin://wxpay/bizpayurl?pr=8KB3vd5"
+            text:"${codeUrl}"
         });
     </script>
 
